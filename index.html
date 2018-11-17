@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SaMeR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent font-weight-bold text-uppercase fixed-top">
+            <a class="navbar-brand" href="#">SaMeR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav  mt-2 mt-lg-0">
+                    <li class="nav-item "><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#serviecs">Serviecs</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#contact">Contact</a></li>
+                </ul>
+                <button id="searchButton" class="btn bg-transparent buttonHover"></button>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="videos">
+            <video preload="true" playsinline="" autoplay="" muted="" loop="">
+                <source src="videos/ICON_VERSION3.mp4" type="video/mp4">
+            </video>
+            <h1 class="sam">Samer Ishmawi</h1>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-bg">
+            <p class="lead1">.</p>
+            <div class="prgraf">
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling
+                    extra
+                    attention to featured content or information.This is a simple hero unit, a simple
+                    jumbotron-style component for calling </p>
+            </div>
+        </div>
+        <div class="imgg">
+            <img src="http://legacyrules.com/_nuxt/img/splash.780c1b0.png" alt="">
+        </div>
+    </section>
+    <section id="serviecs">
+        <div class="bag">
+            <div class="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide ">
+                        <h1 class="slide-number">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias
+                            sint
+                            quae repellat deleniti cupiditate veritatis nesciunt mollitia corporis! Aliquam.</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias
+                            sint
+                            quae repellat deleniti cupiditate veritatis nesciunt mollitia corporis! Aliquam.</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias
+                            sint
+                            quae repellat deleniti cupiditate veritatis nesciunt mollitia corporis! Aliquam.</h1>
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias
+                            sint
+                            quae repellat deleniti cupiditate veritatis nesciunt mollitia corporis!
+                            yyyyyyyyyyy1111111111111Aliquam.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="serv-img">
+                <img class="ser-img" src="http://www.mcculleycuppan.com/uploads/2/9/8/3/29838881/laptopsprint_1_orig.png"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container contact-form col-10">
+            <form method="post" class="post">
+                <h1 class="offset-2">Get in</h1>
+                <h1 class="ofset-1">Contact with Me</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control bg-info" placeholder="Your Name"
+                                value="" />
+                        </div>
+                        <div class="form-group1">
+                            <input type="text" name="txtEmail" class="form-control email bg-info" placeholder="Your Email"
+                                value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control bg-info" placeholder="Your Message" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact bg-info btn-lg disabled" value="Send Message" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="page-footer font-small unique-color-dark pt-4 ">
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center py-2">
+                <li class="list-inline-item">
+                    <h3 class="mb-1 display-4 text-center text-white">SaMeR</h3>
+                </li>
+            </ul>
+        </div>
+        <div class="icon-bar">
+            <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+            <a href="https://www.github.com/" class="github"><i class="fa fa-github"></i></a>
+            <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+
+        </div>
+        <div class="footer-copyright  py-5 text-center">© 2018 Copyright: Made With
+        </div>
+    </footer>
+</body>
+
+</html>
